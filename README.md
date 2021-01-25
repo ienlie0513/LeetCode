@@ -11,3 +11,4 @@
 ## Daily Challenge
 * 2021/1/20 Valid Parentheses https://leetcode.com/explore/challenge/card/january-leetcoding-challenge-2021/581/week-3-january-15th-january-21st/3610/
 * 2021/1/22 Determine if Two Strings Are Close https://leetcode.com/explore/challenge/card/january-leetcoding-challenge-2021/582/week-4-january-22nd-january-28th/3613/
+* 2020/1/25 Check If All 1's Are at Least Length K Places Away https://leetcode.com/explore/challenge/card/january-leetcoding-challenge-2021/582/week-4-january-22nd-january-28th/3616/
