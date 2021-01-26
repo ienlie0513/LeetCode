@@ -7,6 +7,7 @@
 * 2021/1/23 Longest Common Prefix https://leetcode.com/problems/longest-common-prefix/
 * 2021/1/24 Merge Two Sorted Lists https://leetcode.com/problems/merge-two-sorted-lists/
 * 2021/1/25 Remove Duplicates from Sorted Array https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+* 2021/1/26 Remove Element https://leetcode.com/problems/remove-element/
 
 ## Daily Challenge
 * 2021/1/20 Valid Parentheses https://leetcode.com/explore/challenge/card/january-leetcoding-challenge-2021/581/week-3-january-15th-january-21st/3610/
