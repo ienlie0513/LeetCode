@@ -16,6 +16,7 @@
 * 2021/2/1 Plus One https://leetcode.com/problems/plus-one/
 * 2021/2/2 Add Binary https://leetcode.com/problems/add-binary/
 * 2021/2/3 Sqrt(x) https://leetcode.com/problems/sqrtx/
+* 2021/2/4 Climbing Stairs https://leetcode.com/problems/climbing-stairs/
 
 ## Daily Challenge
 * 2021/1/20 Valid Parentheses https://leetcode.com/explore/challenge/card/january-leetcoding-challenge-2021/581/week-3-january-15th-january-21st/3610/
