@@ -23,6 +23,7 @@
 * 2021/2/11 Symmetric Tree https://leetcode.com/problems/symmetric-tree/
 * 2021/2/11 Maximum Depth of Binary Tree https://leetcode.com/problems/maximum-depth-of-binary-tree/
 * 2021/2/13 Minimum Depth of Binary Tree https://leetcode.com/problems/minimum-depth-of-binary-tree/
+* 2021/3/2 Convert Sorted Array to Binary Search Tree https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
 
 ## Daily Challenge
 * 2021/1/20 Valid Parentheses https://leetcode.com/explore/challenge/card/january-leetcoding-challenge-2021/581/week-3-january-15th-january-21st/3610/
