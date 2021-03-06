@@ -37,3 +37,4 @@
 * 2021/1/28 Smallest String With A Given Numeric Value https://leetcode.com/explore/challenge/card/january-leetcoding-challenge-2021/582/week-4-january-22nd-january-28th/3619/
 * 2021/2/4 Linked List Cycle https://leetcode.com/explore/challenge/card/february-leetcoding-challenge-2021/584/week-1-february-1st-february-7th/3627/
 * 2021/3/4 Missing Number https://leetcode.com/explore/challenge/card/march-leetcoding-challenge-2021/588/week-1-march-1st-march-7th/3659/
+* 2021/3/7 Pascal's Triangle https://leetcode.com/problems/pascals-triangle/
