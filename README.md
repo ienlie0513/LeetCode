@@ -26,8 +26,8 @@
 * 2021/3/2 Convert Sorted Array to Binary Search Tree https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
 * 2021/3/3 Balanced Binary Tree https://leetcode.com/problems/balanced-binary-tree/
 * 2021/3/4 Path Sum https://leetcode.com/problems/path-sum/
-* 2021/3/7 Pascal's Triangle https://leetcode.com/problems/pascals-triangle/
-* 2021/3/7 Pascal's Triangle II https://leetcode.com/problems/pascals-triangle-ii/
+* 2021/3/6 Pascal's Triangle https://leetcode.com/problems/pascals-triangle/
+* 2021/3/6 Pascal's Triangle II https://leetcode.com/problems/pascals-triangle-ii/
 
 ## Medium
 * 2021/3/4 Add Two Numbers https://leetcode.com/problems/add-two-numbers/
