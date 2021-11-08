@@ -30,6 +30,7 @@
 * 2021/3/6 Pascal's Triangle II https://leetcode.com/problems/pascals-triangle-ii/
 * 2021/3/9 Best Time to Buy and Sell Stock https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 * 2021/11/4 Find the Middle Index in Array https://leetcode.com/problems/find-the-middle-index-in-array/
+* 2021/11/8 Largest Number At Least Twice of Others https://leetcode.com/explore/learn/card/array-and-string/201/introduction-to-array/1147/
 
 ## Medium
 * 2021/3/4 Add Two Numbers https://leetcode.com/problems/add-two-numbers/
