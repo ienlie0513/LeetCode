@@ -31,6 +31,7 @@
 * 2021/3/9 Best Time to Buy and Sell Stock https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 * 2021/11/4 Find the Middle Index in Array https://leetcode.com/problems/find-the-middle-index-in-array/
 * 2021/11/8 Largest Number At Least Twice of Others https://leetcode.com/explore/learn/card/array-and-string/201/introduction-to-array/1147/
+* 2021/11/9 Diagonal Traverse https://leetcode.com/explore/learn/card/array-and-string/202/introduction-to-2d-array/1167/
 
 ## Medium
 * 2021/3/4 Add Two Numbers https://leetcode.com/problems/add-two-numbers/
