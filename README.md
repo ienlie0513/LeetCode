@@ -34,6 +34,7 @@
 * 2021/11/9 Diagonal Traverse https://leetcode.com/explore/learn/card/array-and-string/202/introduction-to-2d-array/1167/
 * 2021/11/10 Spiral Matrix https://leetcode.com/explore/learn/card/array-and-string/202/introduction-to-2d-array/1168/
 * 2021/11/16 Reverse String https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1183/
+* 2021/11/16 Array Partition I https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1154/
 
 ## Medium
 * 2021/3/4 Add Two Numbers https://leetcode.com/problems/add-two-numbers/
