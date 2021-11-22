@@ -45,6 +45,7 @@
 * 2021/11/17 Minimum Size Subarray Sum https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1299/
 * 2021/11/18 Rotate Array https://leetcode.com/explore/learn/card/array-and-string/204/conclusion/1182/
 * 2021/11/18 Reverse Words in a String https://leetcode.com/explore/learn/card/array-and-string/204/conclusion/1164/
+* 2021/11/22 Design Circular Queue https://leetcode.com/explore/learn/card/queue-stack/228/first-in-first-out-data-structure/1337/
 
 ## Daily Challenge
 * 2021/1/20 Valid Parentheses https://leetcode.com/explore/challenge/card/january-leetcoding-challenge-2021/581/week-3-january-15th-january-21st/3610/
