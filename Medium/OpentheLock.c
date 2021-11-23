@@ -1,6 +1,6 @@
 /* queue implement */
 typedef struct {
-    char **q;
+    int *q;
     int head;
     int tail;
     int size;
@@ -10,7 +10,7 @@ typedef struct {
 
 Queue* queueCreate(int k) {
     Queue *obj = (Queue *)malloc(sizeof(Queue));
-    obj->q = (char **)malloc(sizeof(char *)*k);
+    obj->q = (int *)malloc(sizeof(int)*k);
     obj->size = k;
     obj->head = 0;
     obj->tail = -1;
@@ -19,14 +19,14 @@ Queue* queueCreate(int k) {
     return obj;
 }
 
-void enQueue(Queue* obj, char* value) {
+void enQueue(Queue* obj, int value) {
     obj->tail = (obj->tail+1)%obj->size;
     obj->q[obj->tail] = value;
     obj->len++;
 }
 
-char* deQueue(Queue* obj) {
-    char *value = obj->q[obj->head];
+int deQueue(Queue* obj) {
+    int value = obj->q[obj->head];
     obj->head = (obj->head+1)%obj->size;
     obj->len--;
     return value;
@@ -44,40 +44,43 @@ int openLock(char ** deadends, int deadendsSize, char * target){
         return -1;
     
     Queue* queue = queueCreate(10000);
-    enQueue(queue, "0000");
+    enQueue(queue, 0);
     visited[0] = 1;
-    int step = -1;
-    char *cur;
+    int step = -1, tar = atoi(target), cur;
     while(queue->len > 0){
         step++;
         int size = queue->len;
         for(int n=0; n<size; n++){
             cur = deQueue(queue);
-            if(!strcmp(target, cur))
+            if(cur == tar)
                 return step;
 
-            for(int i=0; i<4; i++){
-                char *ner_inc = (char*)malloc(sizeof(char)*5);
-                memcpy(ner_inc, cur, sizeof(char)*5);
-                if(cur[i] == '9')
-                    ner_inc[i] = '0';
+            int digit = cur;
+            for(int i=3; i>=0; i--){
+                int base = (int)pow(10,i), ner;
+                
+                ner = cur;
+                if(digit/base == 9)
+                    ner = ner - 9*base;
                 else
-                    ner_inc[i] += 1;
-                if(!visited[atoi(ner_inc)]){
-                    enQueue(queue, ner_inc);
-                    visited[atoi(ner_inc)] = 1;
+                    ner += base;
+                if(!visited[ner]){
+                    enQueue(queue, ner);
+                    visited[ner] = 1;
+                }
+
+                ner = cur;
+                if(digit/base == 0)
+                    ner = ner + 9*base;
+                else
+                    ner -= base;
+                if(!visited[ner]){
+                    enQueue(queue, ner);
+                    visited[ner] = 1;
                 }
                 
-                char *ner_dec = (char*)malloc(sizeof(char)*5);
-                memcpy(ner_dec, cur, sizeof(char)*5);
-                if(cur[i] == '0')
-                    ner_dec[i] = '9';
-                else
-                    ner_dec[i] -= 1;
-                if(!visited[atoi(ner_dec)]){
-                    enQueue(queue, ner_dec);
-                    visited[atoi(ner_dec)] = 1;
-                }
+                if(digit != 0)
+                    digit %= base;
             }
         }
     }
