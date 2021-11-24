@@ -1,39 +1,32 @@
+char pair(char c){
+    if(c == ')')
+        return '(';
+    if(c == ']')
+        return '[';
+    if(c == '}')
+        return '{';
+    return '0';
+}
+
 bool isValid(char * s){
-    int str[10000];
-    int index = 0;
-    for(int i=0; i<strlen(s); i++){
-        if(index == 0 && (s[i] == ')' || s[i] == ']' || s[i] == '}')) return false;
-        if(s[i] == '('){
-            str[index] = 0;
-            index++;
+    char stack[5000];
+    int top = 0;
+    stack[0] = s[0];
+    for(int i=1; i<strlen(s); i++){
+        if(top>5000)
+            return false;
+
+        if(top >= 0 && pair(s[i])!='0' && stack[top] == pair(s[i])){
+            top--;
         }
-        if(s[i] == ')'){
-            if(str[index-1] == 0){
-                index--;
-            }
-            else return false;
-        }
-        if(s[i] == '['){
-            str[index] = 1;
-            index++;
-        }
-        if(s[i] == ']'){
-            if(str[index-1] == 1){
-                index--;
-            }
-            else return false;
-        }
-        if(s[i] == '{'){
-            str[index] = 3;
-            index++;
-        }
-        if(s[i] == '}'){
-            if(str[index-1] == 3){
-                index--;
-            }
-            else return false;
+        else{
+            top++;
+            stack[top] = s[i];
         }
     }
-    if(index != 0) return false;
-    return true;
+    
+    if(top < 0)
+        return true;
+    else
+        return false;
 }
