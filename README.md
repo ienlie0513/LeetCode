@@ -51,6 +51,7 @@
 * 2021/11/23 Open the Lock https://leetcode.com/explore/learn/card/queue-stack/231/practical-application-queue/1375/
 * 2021/11/24 Perfect Squares https://leetcode.com/explore/learn/card/queue-stack/231/practical-application-queue/1371/
 * 2021/11/25 Daily Temperatures https://leetcode.com/explore/learn/card/queue-stack/230/usage-stack/1363/
+* 2021/11/25 Evaluate Reverse Polish Notation https://leetcode.com/explore/learn/card/queue-stack/230/usage-stack/1394/
 
 ## Daily Challenge
 * 2021/1/20 Valid Parentheses https://leetcode.com/explore/challenge/card/january-leetcoding-challenge-2021/581/week-3-january-15th-january-21st/3610/
