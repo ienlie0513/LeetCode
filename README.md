@@ -36,6 +36,7 @@
 * 2021/11/19 Reverse Words in a String III https://leetcode.com/explore/learn/card/array-and-string/204/conclusion/1165/
 * 2021/11/19 Move Zeroes https://leetcode.com/explore/learn/card/array-and-string/204/conclusion/1174/
 * 2021/11/24 Min Stack https://leetcode.com/explore/learn/card/queue-stack/230/usage-stack/1360/
+* 2021/11/29 Buddy Strings https://leetcode.com/problems/buddy-strings/
 
 ## Medium
 * 2021/1/20 Reverse Integer https://leetcode.com/problems/reverse-integer/
