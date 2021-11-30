@@ -38,6 +38,7 @@
 * 2021/11/24 Min Stack https://leetcode.com/explore/learn/card/queue-stack/230/usage-stack/1360/
 * 2021/11/29 Buddy Strings https://leetcode.com/problems/buddy-strings/
 * 2021/11/30 Best Time to Buy and Sell Stock II https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/564/
+* 2021/11/30 Contains Duplicate https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/578/
 
 ## Medium
 * 2021/1/20 Reverse Integer https://leetcode.com/problems/reverse-integer/
