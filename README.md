@@ -39,6 +39,7 @@
 * 2021/11/29 Buddy Strings https://leetcode.com/problems/buddy-strings/
 * 2021/11/30 Best Time to Buy and Sell Stock II https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/564/
 * 2021/11/30 Contains Duplicate https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/578/
+* 2021/12/1 Single Number https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/549/
 
 ## Medium
 * 2021/1/20 Reverse Integer https://leetcode.com/problems/reverse-integer/
