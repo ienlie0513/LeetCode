@@ -1,19 +1,18 @@
+
+
 char * longestCommonPrefix(char ** strs, int strsSize){
-    if(strsSize == 0)
-        return "";
-    char *ans = (char *)malloc(sizeof(char)*201);
-    for(int i=0; i<201; i++)
-        ans[i] = '\0';
-    int idx=0;
-    
-    for(int i=0; i<strlen(strs[0]); i++){
-        for(int j=1; j<strsSize; j++){
-            if(strs[0][i] != strs[j][i]){
-                return ans;
+    for(int i=0; i<strsSize-1; i++){
+        int len = strlen(strs[i])>strlen(strs[i+1])? strlen(strs[i+1]): strlen(strs[i]);
+        if(!len)
+            return "";
+        for(int j=0; j<len; j++){
+            if(strs[i][j] != strs[i+1][j]){
+                strs[i+1][j] = '\0';
+                break;
             }
         }
-        ans[idx] = strs[0][i];
-        idx++;
+        if(strlen(strs[i+1])>len)
+            strs[i+1][len] = '\0';
     }
-    return ans;
+    return strs[strsSize-1];
 }
