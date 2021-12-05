@@ -42,6 +42,7 @@
 * 2021/12/1 Single Number https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/549/
 * 2021/12/2 Intersection of Two Arrays II https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/674/
 * 2021/12/3 Valid Sudoku https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/769/
+* 2021/12/5 First Unique Character in a String https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/881/
 
 ## Medium
 * 2021/1/20 Reverse Integer https://leetcode.com/problems/reverse-integer/
