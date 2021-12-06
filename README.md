@@ -45,6 +45,7 @@
 * 2021/12/5 First Unique Character in a String https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/881/
 * 2021/12/6 Reverse Linked List https://leetcode.com/problems/reverse-linked-list/
 * 2021/12/6 Valid Anagram https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/882/
+* 2021/12/6 Valid Palindrome https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/883/
 
 ## Medium
 * 2021/1/20 Reverse Integer https://leetcode.com/problems/reverse-integer/
