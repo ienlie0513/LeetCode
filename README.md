@@ -65,6 +65,7 @@
 * 2021/11/26 Clone Graph https://leetcode.com/explore/learn/card/queue-stack/232/practical-application-stack/1392/
 * 2021/11/30 Sort the Matrix Diagonally https://leetcode.com/problems/sort-the-matrix-diagonally/
 * 2021/12/3 Rotate Image https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/770/
+* 2021/12/7 Target Sum https://leetcode.com/explore/learn/card/queue-stack/232/practical-application-stack/1389/
 
 ## Daily Challenge
 * 2021/1/20 Valid Parentheses https://leetcode.com/explore/challenge/card/january-leetcoding-challenge-2021/581/week-3-january-15th-january-21st/3610/
