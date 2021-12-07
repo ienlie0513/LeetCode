@@ -14,5 +14,11 @@ int DFS(int* nums, int numsSize, int target, int i){
 }
 
 int findTargetSumWays(int* nums, int numsSize, int target){
+    int sum=0;
+    for(int i=0; i<numsSize; i++)
+        sum += nums[i];
+    if(sum < target || (sum+target)%2 != 0)
+        return 0;
+    
     return DFS(nums, numsSize, target, 0);    
 }
