@@ -47,6 +47,7 @@
 * 2021/12/6 Valid Anagram https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/882/
 * 2021/12/6 Valid Palindrome https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/883/
 * 2021/12/7 Binary Tree Inorder Traversal https://leetcode.com/explore/learn/card/queue-stack/232/practical-application-stack/1383/
+* 2021/12/9 Delete Node in a Linked List https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/553/
 
 ## Medium
 * 2021/1/20 Reverse Integer https://leetcode.com/problems/reverse-integer/
