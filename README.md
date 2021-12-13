@@ -49,6 +49,7 @@
 * 2021/12/7 Binary Tree Inorder Traversal https://leetcode.com/explore/learn/card/queue-stack/232/practical-application-stack/1383/
 * 2021/12/9 Delete Node in a Linked List https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/553/
 * 2021/12/10 Remove Nth Node From End of List https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/603/
+* 2021/12/13 Palindrome Linked List https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/772/
 
 ## Medium
 * 2021/1/20 Reverse Integer https://leetcode.com/problems/reverse-integer/
