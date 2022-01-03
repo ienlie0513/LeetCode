@@ -51,6 +51,7 @@
 * 2021/12/10 Remove Nth Node From End of List https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/603/
 * 2021/12/13 Palindrome Linked List https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/772/
 * 2021/12/13 Linked List Cycle https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/773/
+* 2022/1/3 Reshape the Matrix https://leetcode.com/problems/reshape-the-matrix/
 
 ## Medium
 * 2021/1/20 Reverse Integer https://leetcode.com/problems/reverse-integer/
