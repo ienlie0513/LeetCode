@@ -7,16 +7,10 @@ public:
             return mat;
         
         vector<vector<int>> ans(r, vector<int>(c,0));
-        int d1=0, d2=0;
-        for(int i=0; i<m; i++){
-            for(int j=0; j<n; j++){
-                ans[d1][d2++] = mat[i][j];
-                if(d2>=c){
-                    d1++;
-                    d2 = 0;
-                }
-            }
+        for(int k=0; k<m*n; k++){
+            ans[k/c][k%c] = mat[k/n][k%n];
         }
+        
         return ans;
     }
 };
